@@ -1,0 +1,30 @@
+.history{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        margin-top: 30px;
+    }
+
+    .fas{
+        color: #fff;
+        font-size: 30px;
+        margin: 10px;
+        transition: transform, color, .3s;
+        
+    }
+    img{
+        width: 36vw;
+        min-width: 350px;
+        height: 90vh;
+        
+    }
+
+    .fas:hover{
+        transform: scale(1.15);
+        color: rgb(214, 214, 214);
+    }
+
+    
+}

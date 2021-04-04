@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
     nav {
         width: 100%;
@@ -9,7 +9,7 @@
 
             span {
                 font-size: 25px;
-                display: none;
+
             }
 
             img {
@@ -28,6 +28,7 @@
 
 
         .cuenta {
+            display: none;
             .fas {
                 color: #5e5e5e;
                 font-size: 28px;
@@ -152,5 +153,26 @@
     
     
     }
+
+    .bar-bottom{
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        padding: 10px 10px;
+        bottom: 0;
+        .bottom-cuenta{
+            display: flex;
+            justify-content: space-around;
+            
+            .fas {
+                color: #5e5e5e;
+                font-size: 30px;
+                padding-left: 8px;
+                transition: transform, color, .3s;
+            }
+        }
+    }
+
+  
     
 }

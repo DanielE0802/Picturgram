@@ -254,6 +254,9 @@ body {
         .main-inicio .main-right .main-right-bottom p a:hover {
           color: #00efb7; }
 
+.display-none {
+  display: none; }
+
 .history {
   background: #000;
   display: flex;
@@ -274,15 +277,14 @@ body {
     transform: scale(1.15);
     color: #d6d6d6; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   nav {
     width: 100%;
     padding: 0px 8% 0px 8%; }
     nav .logo {
       padding: 6px 0px; }
       nav .logo span {
-        font-size: 25px;
-        display: none; }
+        font-size: 25px; }
       nav .logo img {
         max-width: 35px;
         margin: 0px 0px 0px 5px; }
@@ -290,11 +292,13 @@ body {
       transform: scale(1.15); }
     nav .buscador input {
       width: 30vw; }
-    nav .cuenta .fas {
-      color: #5e5e5e;
-      font-size: 28px;
-      padding-left: 8px;
-      transition: transform, color, .3s; }
+    nav .cuenta {
+      display: none; }
+      nav .cuenta .fas {
+        color: #5e5e5e;
+        font-size: 28px;
+        padding-left: 8px;
+        transition: transform, color, .3s; }
 
   .main {
     display: flex;
@@ -357,6 +361,21 @@ body {
           .main .main-left .main-left-post .post .reactions .left .fa-heart:hover, .main .main-left .main-left-post .post .reactions .left .fa-comment:hover, .main .main-left .main-left-post .post .reactions .left .fa-share:hover {
             transform: scale(1.15); }
     .main .main-right {
-      display: none; } }
+      display: none; }
+
+  .bar-bottom {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    padding: 10px 10px;
+    bottom: 0; }
+    .bar-bottom .bottom-cuenta {
+      display: flex;
+      justify-content: space-around; }
+      .bar-bottom .bottom-cuenta .fas {
+        color: #5e5e5e;
+        font-size: 30px;
+        padding-left: 8px;
+        transition: transform, color, .3s; } }
 
 /*# sourceMappingURL=estilo.css.map */

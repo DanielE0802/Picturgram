@@ -274,4 +274,49 @@ body {
     transform: scale(1.15);
     color: #d6d6d6; }
 
+@media screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+    padding: 0px 8% 0px 8%; }
+    nav .logo {
+      padding: 6px 0px; }
+      nav .logo span {
+        font-size: 25px; }
+      nav .logo img {
+        max-width: 25px;
+        margin: 0px 0px 0px 5px; }
+    nav .logo:hover {
+      transform: scale(1.15); }
+    nav .buscador input {
+      margin: 5px auto;
+      border: 1px solid #c5c5c5;
+      background: #FAFAFA;
+      height: 32px;
+      width: 14vw;
+      border-radius: 4px; }
+    nav .buscador input:focus {
+      background: linear-gradient(0deg, #00efb7 10%, rgba(40, 139, 232, 0) 82%);
+      font-family: "Poppins", sans-serif;
+      border: 1px solid #c4c4c4;
+      outline: none; }
+    nav .buscador input::placeholder {
+      text-align: center;
+      font-family: "Poppins", sans-serif; }
+    nav .cuenta a {
+      text-decoration: none; }
+    nav .cuenta .fas {
+      color: #5e5e5e;
+      font-size: 20px;
+      padding-left: 5px;
+      transition: transform, color, .3s; }
+    nav .cuenta .fas:first-child {
+      margin-left: 0px; }
+    nav .fa-user:hover,
+    nav .fa-inbox:hover,
+    nav .fa-home:hover,
+    nav .fa-bell:hover,
+    nav .fa-cog:hover {
+      color: #000;
+      transform: scale(1.15); } }
+
 /*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,89 @@
+@media screen and (max-width: 600px) {
+    
+    nav {
+        width: 100%;
+        padding: 0px 8% 0px 8%;
+    
+        .logo {
+
+            padding: 6px 0px;
+    
+            span {
+                font-size: 25px;
+            }
+    
+            img {
+    
+                max-width: 25px;
+                margin: 0px 0px 0px 5px;
+            }
+    
+        }
+    
+        .logo:hover{
+            
+            transform: scale(1.15);
+    
+        }
+    
+        .buscador {
+    
+            input {
+    
+                margin: 5px auto;
+                border: 1px solid #c5c5c5;
+                background: $bg-primary;
+                height: 32px;
+                width: 14vw;
+                border-radius: 4px;
+            }
+    
+            input:focus {
+    
+                background: $degradado;
+                font-family: $poppins;
+                border: 1px solid #c4c4c4;
+    
+                outline: none;
+            }
+    
+            input::placeholder {
+                text-align: center;
+                font-family: $poppins;
+            }
+    
+        }
+    
+        .cuenta {
+    
+            a {
+                text-decoration: none;
+            }
+    
+            .fas {
+                color: #5e5e5e;
+                font-size: 20px;
+                padding-left: 5px;
+                transition: transform, color, .3s;
+    
+            }
+    
+            .fas:first-child {
+                margin-left: 0px;
+            }
+    
+    
+        }
+    
+    
+        .fa-user:hover,
+        .fa-inbox:hover,
+        .fa-home:hover,
+        .fa-bell:hover,
+        .fa-cog:hover {
+            color: #000;
+            transform: scale(1.15);
+        }
+    }
+
+}

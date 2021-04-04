@@ -49,7 +49,7 @@
             background: #fff;
             box-shadow: 0px 0px 49px -25px rgba(0, 0, 0, 0.75);
             font-family: $poppins;
-            font-size: 15px;
+            font-size: 175x;
 
             .post{
                 .user{
@@ -59,9 +59,13 @@
                     border-bottom: 2px solid #dadada;
                  
                     img{
-                        width: 35px;
+                        width: 50px;
+                        border-radius: 30px;
                         margin: 10px 10px 10px 0px;
 
+                    }
+                    p{
+                        font-size: 20px;
                     }
                    
 
@@ -73,6 +77,7 @@
                 .reactions{
                     padding: 5px 0px 20px 10px;
                     border-bottom: 2px solid #dadada;
+                    
                     .left{
                         a{
                             text-decoration: none;

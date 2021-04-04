@@ -95,15 +95,18 @@ nav {
       background: #fff;
       box-shadow: 0px 0px 49px -25px rgba(0, 0, 0, 0.75);
       font-family: "Poppins", sans-serif;
-      font-size: 15px; }
+      font-size: 175x; }
       .main .main-left .main-left-post .post .user {
         display: flex;
         padding: 0px 0px 0px 10px;
         align-items: center;
         border-bottom: 2px solid #dadada; }
         .main .main-left .main-left-post .post .user img {
-          width: 35px;
+          width: 50px;
+          border-radius: 30px;
           margin: 10px 10px 10px 0px; }
+        .main .main-left .main-left-post .post .user p {
+          font-size: 20px; }
       .main .main-left .main-left-post .post .post-img img {
         width: 100%; }
       .main .main-left .main-left-post .post .reactions {
@@ -373,7 +376,9 @@ body {
           .main .main-left .main-left-post .post .reactions .left .far {
             margin: 0px 10px 0px 0px;
             transition: transform, color, .4s; }
-          .main .main-left .main-left-post .post .reactions .left .fa-heart:hover, .main .main-left .main-left-post .post .reactions .left .fa-comment:hover, .main .main-left .main-left-post .post .reactions .left .fa-share:hover {
+          .main .main-left .main-left-post .post .reactions .left .fa-heart:hover,
+          .main .main-left .main-left-post .post .reactions .left .fa-comment:hover,
+          .main .main-left .main-left-post .post .reactions .left .fa-share:hover {
             transform: scale(1.15); }
     .main .main-right {
       display: none; }
@@ -391,6 +396,89 @@ body {
         color: #5e5e5e;
         font-size: 30px;
         padding-left: 8px;
-        transition: transform, color, .3s; } }
+        transition: transform, color, .3s; }
+
+  .display-none {
+    display: none; }
+
+  .main-inicio {
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .main-inicio .phone-home img {
+      width: 50vw; }
+    .main-inicio .phone-home {
+      order: 2; }
+    .main-inicio .main-right {
+      order: 0;
+      width: 500px;
+      min-width: 300px; }
+      .main-inicio .main-right .main-logo img {
+        max-width: 10vw;
+        margin: 30px 0px 0px 10px; }
+      .main-inicio .main-right .main-logo a span {
+        font-size: 8vw;
+        margin-left: 55px; }
+      .main-inicio .main-right .main-right-top {
+        background: #fff;
+        margin: 0px auto 20px auto;
+        width: 90%;
+        height: 350px;
+        box-shadow: 0 0 30px rgba(129, 129, 129, 0.685); }
+        .main-inicio .main-right .main-right-top .main-form a {
+          font-size: 13px;
+          padding: 8px 10vw; }
+        .main-inicio .main-right .main-right-top form input {
+          width: 80%;
+          height: 30px; }
+        .main-inicio .main-right .main-right-top .main-pregunta a {
+          font-size: 15px;
+          text-decoration: none;
+          text-align: center;
+          color: #7c7c7c;
+          transition: color .3s; }
+          .main-inicio .main-right .main-right-top .main-pregunta a p {
+            margin-top: 12px; }
+        .main-inicio .main-right .main-right-top .main-pregunta a:hover {
+          color: #00efb7; }
+      .main-inicio .main-right .separador {
+        display: flex;
+        justify-content: center; }
+      .main-inicio .main-right .separador-derecha {
+        display: inline-block;
+        width: 25%;
+        height: 10px;
+        max-width: 150px;
+        background: #00efb7;
+        margin: 0px 0px 0px 20px;
+        border-radius: 3px; }
+      .main-inicio .main-right .separador-izquierda {
+        display: inline-block;
+        width: 25%;
+        max-width: 150px;
+        height: 10px;
+        background: #00efb7;
+        margin: 0px 20px 0px 0px;
+        border-radius: 3px; }
+      .main-inicio .main-right .separador-centro {
+        display: inline-block;
+        width: 20px;
+        height: 10px;
+        background: #00efb7;
+        border-radius: 50%; }
+      .main-inicio .main-right .main-right-bottom {
+        background: #fff;
+        box-shadow: 0px 0px 49px -15px rgba(0, 0, 0, 0.75);
+        width: 90%;
+        margin: 20px auto 20px auto;
+        padding: 20px; }
+        .main-inicio .main-right .main-right-bottom p {
+          text-align: center; }
+          .main-inicio .main-right .main-right-bottom p a {
+            text-decoration: none;
+            color: #7c7c7c;
+            transition: color, .3s; }
+          .main-inicio .main-right .main-right-bottom p a:hover {
+            color: #00efb7; } }
 
 /*# sourceMappingURL=estilo.css.map */

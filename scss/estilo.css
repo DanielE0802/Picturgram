@@ -16,7 +16,8 @@ nav {
   align-items: center; }
   nav .logo {
     padding: 6px 0px;
-    transition: transform .3s; }
+    transition: transform .3s;
+    cursor: pointer; }
     nav .logo span {
       display: inline-block;
       font-family: "Kaushan Script", cursive;
@@ -142,6 +143,12 @@ nav {
         font-family: "Poppins", sans-serif;
         font-size: 13px; }
 
+.swal2-header {
+  font-family: "Poppins", sans-serif; }
+
+.swal2-content {
+  font-family: "Poppins", sans-serif; }
+
 body {
   background: #FAFAFA; }
 
@@ -186,7 +193,8 @@ body {
         text-decoration: none;
         color: #212121;
         margin: 15px 0px 10px 0px;
-        transition: background, color, .6s; }
+        transition: background, color, .6s;
+        cursor: pointer; }
       .main-inicio .main-right .main-right-top .main-form a:hover {
         background: #03c497;
         color: #fff; }
@@ -287,7 +295,8 @@ body {
     height: 60px;
     justify-content: space-between; }
     nav .logo {
-      padding: 6px 0px; }
+      padding: 6px 0px;
+      cursor: pointer; }
       nav .logo span {
         font-size: 5vw; }
       nav .logo img {
@@ -427,7 +436,8 @@ body {
         box-shadow: 0 0 30px rgba(129, 129, 129, 0.685); }
         .main-inicio .main-right .main-right-top .main-form a {
           font-size: 13px;
-          padding: 8px 10vw; }
+          padding: 8px 10vw;
+          cursor: pointer; }
         .main-inicio .main-right .main-right-top form input {
           width: 80%;
           height: 30px; }

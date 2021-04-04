@@ -6,6 +6,7 @@ let perfilImg = document.querySelectorAll("#main > div.main-left > div.main-left
 let description = document.querySelectorAll("#main > div.main-left > div.main-left-post > div > div.reactions > div.description")
 let date = document.querySelectorAll("#main > div.main-left > div.main-left-post > div > div.reactions > div.date")
 
+
 callApi = async () => {
     let data = await fetch(url)
     let resp = await data.json()

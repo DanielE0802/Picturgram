@@ -1,90 +1,156 @@
 @media screen and (max-width: 600px) {
-    
+
     nav {
         width: 100%;
         padding: 0px 8% 0px 8%;
-    
-        .logo {
 
+        .logo {
             padding: 6px 0px;
-    
+
             span {
                 font-size: 25px;
                 display: none;
             }
-    
+
             img {
-    
                 max-width: 35px;
                 margin: 0px 0px 0px 5px;
             }
-    
         }
-    
-        .logo:hover{
-            
+
+        .logo:hover {
             transform: scale(1.15);
-    
         }
-    
-        .buscador {
-    
-            input {
-    
-                margin: 5px auto;
-                border: 1px solid #c5c5c5;
-                background: $bg-primary;
-                height: 32px;
-                width: 30vw;
-                border-radius: 4px;
-            }
-    
-            input:focus {
-    
-                background: $degradado;
-                font-family: $poppins;
-                border: 1px solid #c4c4c4;
-    
-                outline: none;
-            }
-    
-            input::placeholder {
-                text-align: center;
-                font-family: $poppins;
-            }
-    
+
+        .buscador input {
+            width: 30vw;
         }
-    
+
+
         .cuenta {
-    
-            a {
-                text-decoration: none;
-            }
-    
             .fas {
                 color: #5e5e5e;
                 font-size: 28px;
-                padding-left:8px;
+                padding-left: 8px;
                 transition: transform, color, .3s;
-    
+
             }
-    
-            .fas:first-child {
-                margin-left: 0px;
-            }
-    
-    
-        }
-    
-    
-        .fa-user:hover,
-        .fa-inbox:hover,
-        .fa-home:hover,
-        .fa-bell:hover,
-        .fa-cog:hover {
-            color: #000;
-            transform: scale(1.15);
         }
     }
 
+
+    .main {
+        display: flex;
+        justify-content: center;
+    
+    
+        .main-left {
+            display: flex;
+            flex-direction: column;
+    
+            .main-left-story {
+                width: 100vw;
+                min-width: 0px;
+                align-self: center;
+                height: 150px;
+                background: #fff;
+                margin: 50px 0px 0px 0px;
+                box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+                display: flex;
+                
+                a{
+                    margin: auto;
+                }
+    
+                img{
+                    width: 13vw;
+                    height: 13vw;
+                    min-width: 45px;
+                    min-height: 45px;
+                    border-radius: 100%;
+                    border: 2px solid $color;
+                    box-shadow: 0 3px 8px $color;
+
+                }
+    
+                img:hover{
+                    transform: scale(1.15);
+    
+    
+                }
+    
+            }
+    
+            .main-left-post {
+                width: 100vw;
+                min-width: 0px;
+                height: 100%;
+                background: #fff;
+                box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+                border-top:  2px solid #dadada;
+                font-family: $poppins;
+                font-size: 15px;
+    
+                .post{
+                    .user{
+                        display: flex;
+                        padding: 0px 0px 0px 10px;
+                        align-items: center;
+                        border-bottom: 2px solid #dadada;
+                     
+                        img{
+                            width: 35px;
+                            margin: 10px 10px 10px 0px;
+    
+                        }
+                       
+    
+                    }
+                    .post-img img{
+                        width: 100vw;
+                    }
+    
+                    .reactions{
+                        padding: 5px 0px 20px 10px;
+                        border-bottom: 2px solid #dadada;
+                        .left{
+                            a{
+                                text-decoration: none;
+                            }
+                            i{
+                                font-size: 30px;
+                                color: #4b4b4b;
+                                margin: 0px 0px 10px 0px;
+                                
+    
+                            }
+                            .far{
+                                margin: 0px 10px 0px 0px;
+                                transition: transform, color, .4s;
+                            }
+    
+                            .fa-heart:hover, .fa-comment:hover, .fa-share:hover{
+                                transform: scale(1.15);
+                                
+                            }
+                        }
+                    }
+                }
+            
+            
+            }
+    
+    
+    
+        }
+    
+
+        .main-right {
+    
+            display: none;
+        }
+    
+    
+    }
+    
 }

@@ -289,35 +289,74 @@ body {
     nav .logo:hover {
       transform: scale(1.15); }
     nav .buscador input {
-      margin: 5px auto;
-      border: 1px solid #c5c5c5;
-      background: #FAFAFA;
-      height: 32px;
-      width: 30vw;
-      border-radius: 4px; }
-    nav .buscador input:focus {
-      background: linear-gradient(0deg, #00efb7 10%, rgba(40, 139, 232, 0) 82%);
-      font-family: "Poppins", sans-serif;
-      border: 1px solid #c4c4c4;
-      outline: none; }
-    nav .buscador input::placeholder {
-      text-align: center;
-      font-family: "Poppins", sans-serif; }
-    nav .cuenta a {
-      text-decoration: none; }
+      width: 30vw; }
     nav .cuenta .fas {
       color: #5e5e5e;
       font-size: 28px;
       padding-left: 8px;
       transition: transform, color, .3s; }
-    nav .cuenta .fas:first-child {
-      margin-left: 0px; }
-    nav .fa-user:hover,
-    nav .fa-inbox:hover,
-    nav .fa-home:hover,
-    nav .fa-bell:hover,
-    nav .fa-cog:hover {
-      color: #000;
-      transform: scale(1.15); } }
+
+  .main {
+    display: flex;
+    justify-content: center; }
+    .main .main-left {
+      display: flex;
+      flex-direction: column; }
+      .main .main-left .main-left-story {
+        width: 100vw;
+        min-width: 0px;
+        align-self: center;
+        height: 150px;
+        background: #fff;
+        margin: 50px 0px 0px 0px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+        display: flex; }
+        .main .main-left .main-left-story a {
+          margin: auto; }
+        .main .main-left .main-left-story img {
+          width: 13vw;
+          height: 13vw;
+          min-width: 45px;
+          min-height: 45px;
+          border-radius: 100%;
+          border: 2px solid #00efb7;
+          box-shadow: 0 3px 8px #00efb7; }
+        .main .main-left .main-left-story img:hover {
+          transform: scale(1.15); }
+      .main .main-left .main-left-post {
+        width: 100vw;
+        min-width: 0px;
+        height: 100%;
+        background: #fff;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+        border-top: 2px solid #dadada;
+        font-family: "Poppins", sans-serif;
+        font-size: 15px; }
+        .main .main-left .main-left-post .post .user {
+          display: flex;
+          padding: 0px 0px 0px 10px;
+          align-items: center;
+          border-bottom: 2px solid #dadada; }
+          .main .main-left .main-left-post .post .user img {
+            width: 35px;
+            margin: 10px 10px 10px 0px; }
+        .main .main-left .main-left-post .post .post-img img {
+          width: 100vw; }
+        .main .main-left .main-left-post .post .reactions {
+          padding: 5px 0px 20px 10px;
+          border-bottom: 2px solid #dadada; }
+          .main .main-left .main-left-post .post .reactions .left a {
+            text-decoration: none; }
+          .main .main-left .main-left-post .post .reactions .left i {
+            font-size: 30px;
+            color: #4b4b4b;
+            margin: 0px 0px 10px 0px; }
+          .main .main-left .main-left-post .post .reactions .left .far {
+            margin: 0px 10px 0px 0px;
+            transition: transform, color, .4s; }
+          .main .main-left .main-left-post .post .reactions .left .fa-heart:hover, .main .main-left .main-left-post .post .reactions .left .fa-comment:hover, .main .main-left .main-left-post .post .reactions .left .fa-share:hover {
+            transform: scale(1.15); }
+    .main .main-right {
+      display: none; } }
 
 /*# sourceMappingURL=estilo.css.map */

@@ -280,25 +280,40 @@ body {
 @media screen and (max-width: 700px) {
   nav {
     width: 100%;
-    padding: 0px 8% 0px 8%; }
+    padding: 0px 5% 0px 5%;
+    height: 60px;
+    justify-content: space-between; }
     nav .logo {
       padding: 6px 0px; }
       nav .logo span {
-        font-size: 25px; }
+        font-size: 5vw; }
       nav .logo img {
-        max-width: 35px;
-        margin: 0px 0px 0px 5px; }
+        max-width: 5vw;
+        width: 5vw;
+        margin: 0px 0px 0px 5px;
+        transform: translateY(4px); }
     nav .logo:hover {
       transform: scale(1.15); }
+    nav .buscador {
+      display: flex;
+      justify-content: center;
+      transform: translateX(-3vw); }
     nav .buscador input {
-      width: 30vw; }
-    nav .cuenta {
-      display: none; }
-      nav .cuenta .fas {
-        color: #5e5e5e;
-        font-size: 28px;
-        padding-left: 8px;
-        transition: transform, color, .3s; }
+      width: 34vw;
+      z-index: 3; }
+    nav .fa-search {
+      order: 5;
+      max-width: 5vw;
+      width: 5vw;
+      transform: translate(8px, 14px); }
+    nav .cuenta .fas {
+      display: none;
+      color: #5e5e5e;
+      font-size: 28px;
+      padding-left: 8px;
+      transition: transform, color, .3s; }
+    nav .cuenta .fa-inbox {
+      display: inline-block; }
 
   .main {
     display: flex;

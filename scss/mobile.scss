@@ -2,19 +2,23 @@
 
     nav {
         width: 100%;
-        padding: 0px 8% 0px 8%;
+        padding: 0px 5% 0px 5%;
+        height: 60px;
+        justify-content: space-between;
 
         .logo {
             padding: 6px 0px;
 
             span {
-                font-size: 25px;
+                font-size: 5vw;
 
             }
 
             img {
-                max-width: 35px;
+                max-width: 5vw;
+                width: 5vw;
                 margin: 0px 0px 0px 5px;
+                transform: translateY(4px);
             }
         }
 
@@ -22,20 +26,41 @@
             transform: scale(1.15);
         }
 
+        .buscador{
+            display: flex;
+            justify-content: center;
+            transform: translateX(-3vw);
+        }
+
         .buscador input {
-            width: 30vw;
+            width: 34vw;
+            z-index: 3;
+        }
+
+        .fa-search{
+            order: 5;
+            max-width: 5vw;
+            width: 5vw;
+            transform: translate(8px , 14px);
+           
         }
 
 
         .cuenta {
-            display: none;
+          
             .fas {
+
+                display: none;
                 color: #5e5e5e;
                 font-size: 28px;
                 padding-left: 8px;
                 transition: transform, color, .3s;
 
             }
+
+            .fa-inbox{
+                display: inline-block;
+            } 
         }
     }
 

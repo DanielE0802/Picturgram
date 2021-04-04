@@ -281,9 +281,10 @@ body {
     nav .logo {
       padding: 6px 0px; }
       nav .logo span {
-        font-size: 25px; }
+        font-size: 25px;
+        display: none; }
       nav .logo img {
-        max-width: 25px;
+        max-width: 35px;
         margin: 0px 0px 0px 5px; }
     nav .logo:hover {
       transform: scale(1.15); }
@@ -292,7 +293,7 @@ body {
       border: 1px solid #c5c5c5;
       background: #FAFAFA;
       height: 32px;
-      width: 14vw;
+      width: 30vw;
       border-radius: 4px; }
     nav .buscador input:focus {
       background: linear-gradient(0deg, #00efb7 10%, rgba(40, 139, 232, 0) 82%);
@@ -306,8 +307,8 @@ body {
       text-decoration: none; }
     nav .cuenta .fas {
       color: #5e5e5e;
-      font-size: 20px;
-      padding-left: 5px;
+      font-size: 28px;
+      padding-left: 8px;
       transition: transform, color, .3s; }
     nav .cuenta .fas:first-child {
       margin-left: 0px; }

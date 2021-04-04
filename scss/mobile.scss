@@ -10,11 +10,12 @@
     
             span {
                 font-size: 25px;
+                display: none;
             }
     
             img {
     
-                max-width: 25px;
+                max-width: 35px;
                 margin: 0px 0px 0px 5px;
             }
     
@@ -34,7 +35,7 @@
                 border: 1px solid #c5c5c5;
                 background: $bg-primary;
                 height: 32px;
-                width: 14vw;
+                width: 30vw;
                 border-radius: 4px;
             }
     
@@ -62,8 +63,8 @@
     
             .fas {
                 color: #5e5e5e;
-                font-size: 20px;
-                padding-left: 5px;
+                font-size: 28px;
+                padding-left:8px;
                 transition: transform, color, .3s;
     
             }
